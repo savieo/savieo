@@ -3,11 +3,21 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Savieo Sebastian | Infrastructure & Linux Systems Engineer</title>
-  <meta name="description" content="Savieo Sebastian is an Infrastructure & Linux Systems Engineer focused on production support, DevOps operations, observability, automation, and distributed systems troubleshooting." />
-  <meta property="og:title" content="Savieo Sebastian | Infrastructure & Linux Systems Engineer" />
-  <meta property="og:description" content="Production-focused engineer specializing in Linux, automation, incident response, observability, and SaaS platform troubleshooting." />
+  <title>Savieo Sebastian | Linux, DevOps Support & Production Operations</title>
+  <meta name="description" content="Savieo Sebastian is a production-focused Infrastructure & Linux Systems Engineer specializing in Linux support, incident response, observability, Python/Bash automation, SQL diagnostics, and healthcare SaaS operations." />
+  <meta name="author" content="Savieo Sebastian" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://savieo.github.io/savieo/" />
+
+  <meta property="og:title" content="Savieo Sebastian | Production Support, Linux & DevOps Operations" />
+  <meta property="og:description" content="Linux systems, incident response, Python/Bash automation, SQL diagnostics, observability, Shopify SaaS support, and Intelerad healthcare infrastructure experience." />
   <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://savieo.github.io/savieo/" />
+  <meta property="og:image" content="https://savieo.github.io/savieo/assets/img/og-preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Savieo Sebastian | Linux, DevOps Support & Production Operations" />
+  <meta name="twitter:description" content="Production-focused support engineer specializing in Linux, incident response, observability, automation, and complex SaaS troubleshooting." />
+  <meta name="twitter:image" content="https://savieo.github.io/savieo/assets/img/og-preview.png" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
@@ -15,30 +25,39 @@
   <div class="cursor-glow" id="cursorGlow"></div>
 
   <header class="site-header">
-    <a class="brand" href="#top"><span class="brand-mark">SS</span><span>Savieo Sebastian</span></a>
-    <nav class="nav">
+    <a class="brand" href="#top" aria-label="Savieo Sebastian home"><span class="brand-mark">SS</span><span>Savieo Sebastian</span></a>
+    <nav class="nav" aria-label="Primary navigation">
       <a href="#experience">Experience</a>
-      <a href="#work">Work</a>
+      <a href="#case-studies">Case Studies</a>
       <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="resume-btn" href="assets/resume/Savieo_Sebastian_Resume.pdf" download>Download Resume</a>
+    <div class="resume-menu">
+      <button class="resume-btn" type="button">Download Resume</button>
+      <div class="resume-dropdown" aria-label="resume download options">
+        <a href="assets/resume/Savieo_Sebastian_Resume.pdf" download>PDF version</a>
+        <a href="assets/resume/Savieo_Sebastian_Resume.docx" download>DOCX version</a>
+      </div>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero section">
       <div class="hero-copy reveal">
-        <p class="eyebrow">Infrastructure • Linux • DevOps Support • Production Operations</p>
-        <h1>I troubleshoot production systems, automate the repetitive, and turn noisy incidents into clear root cause.</h1>
-        <p class="hero-text">I’m a production-focused Support Engineer with 6+ years across healthcare SaaS, e-commerce platforms, and distributed systems. I specialize in Linux systems, log analysis, SQL diagnostics, Python/Bash automation, incident response, and customer-facing technical ownership.</p>
+        <p class="eyebrow">Linux • Production Support • DevOps Operations • Automation</p>
+        <div class="availability-badge">Available for remote roles across Canada • Permanent Resident</div>
+        <h1>I stabilize production systems, automate repeat work, and turn noisy incidents into clear root cause.</h1>
+        <p class="hero-text">I’m a production-focused Support Engineer with 6+ years across healthcare SaaS, global e-commerce, embedded systems, and data automation. I specialize in Linux systems, log analysis, SQL diagnostics, Python/Bash automation, incident response, and customer-facing technical ownership.</p>
         <div class="hero-actions">
-          <a class="button primary" href="#work">View engineering work</a>
+          <a class="button primary" href="#case-studies">View case studies</a>
+          <a class="button secondary" href="assets/resume/Savieo_Sebastian_Resume.pdf" download>Resume PDF</a>
           <a class="button secondary" href="mailto:savieoseb@gmail.com">Contact me</a>
         </div>
         <div class="trust-row">
           <span>Shopify T2 Support</span>
           <span>Intelerad PACS/RIS</span>
           <span>Linux + SQL + Python</span>
+          <span>On-call incident response</span>
         </div>
       </div>
       <div class="hero-panel reveal delay-1">
@@ -53,32 +72,32 @@
         <div class="terminal-card" aria-label="terminal style skills preview">
           <div class="terminal-top"><span></span><span></span><span></span></div>
           <pre><code>$ incident --triage --prod
-status: investigating logs + metrics
+status: logs + metrics + customer impact under review
 
 $ grep -i "error\|timeout\|failed" /var/log/app.log | tail
-finding: auth integration failures isolated
+finding: recurring integration failures isolated
 
-$ python automate_healthcheck.py
-result: repeat checks reduced, signal improved
+$ python automate_healthcheck.py --service api
+result: repeat checks standardized, signal improved
 
 $ rca --format 5-whys
-output: preventable cause + owner + runbook</code></pre>
+output: preventable cause + owner + runbook update</code></pre>
         </div>
       </div>
     </section>
 
-    <section class="metrics section reveal">
+    <section class="metrics section reveal" aria-label="Key metrics">
       <div class="metric"><strong>6+</strong><span>Years production support</span></div>
       <div class="metric"><strong>20+</strong><span>Enterprise hospital environments</span></div>
       <div class="metric"><strong>250+</strong><span>Monitoring alerts/month handled</span></div>
-      <div class="metric"><strong>85%</strong><span>Issues resolved without escalation</span></div>
+      <div class="metric"><strong>100+</strong><span>Python scrapers & automation scripts built</span></div>
     </section>
 
     <section id="experience" class="section two-col">
       <div class="section-intro reveal">
         <p class="eyebrow">Experience</p>
         <h2>Built in real production environments, not just tutorials.</h2>
-        <p>I’ve worked where downtime matters: healthcare imaging infrastructure, global commerce support, authentication flows, database latency, integrations, VPN/network issues, and incident bridges.</p>
+        <p>I’ve worked where downtime matters: healthcare imaging infrastructure, commerce platform support, authentication flows, database latency, integrations, VPN/network issues, and live incident bridges.</p>
       </div>
       <div class="timeline reveal delay-1">
         <article class="timeline-item">
@@ -92,48 +111,76 @@ output: preventable cause + owner + runbook</code></pre>
           <p>Delivered infrastructure and backend support across 20+ hospital environments. Investigated Linux services, PostgreSQL/Sybase issues, PACS/RIS workflows, DICOM/HL7 routing, monitoring alerts, and Code Blue incident bridges.</p>
         </article>
         <article class="timeline-item">
-          <span class="time">2018 — 2021</span>
-          <h3>Python / Embedded Systems Support</h3>
-          <p>Built 100+ Python automation scripts, supported embedded manufacturing systems, configured networking components, and contributed to QA automation and platform integration work.</p>
+          <span class="time">2019 — 2021</span>
+          <h3>Embedded Systems Support Engineer · Calko Canada</h3>
+          <p>Supported embedded manufacturing systems, cloud backup platforms, wireless/IP network components, and operational diagnostics across customer environments.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="time">2018</span>
+          <h3>Software Developer / Python Engineer · Turbolab</h3>
+          <p>Built 100+ Python-based web scrapers and automation utilities using pure Python, Scrapy, Dragline, Selenium, Redis, XPath, and Pandas for large-scale data extraction and validation workflows.</p>
         </article>
       </div>
     </section>
 
-    <section id="work" class="section">
+    <section id="case-studies" class="section case-study-section">
       <div class="center reveal">
-        <p class="eyebrow">Featured work</p>
-        <h2>Engineering work I want to be hired for now.</h2>
-        <p class="section-subtitle">I’m replacing old student projects with practical case studies around reliability, automation, observability, and data troubleshooting.</p>
+        <p class="eyebrow">Selected case studies</p>
+        <h2>Operational stories that show how I actually work.</h2>
+        <p class="section-subtitle">These are not classroom projects. They reflect real troubleshooting, automation, support ownership, and system thinking from production environments.</p>
       </div>
-      <div class="cards">
-        <article class="case-card reveal">
-          <div class="card-tag">Incident Response</div>
-          <h3>Production Incident Triage & RCA</h3>
-          <p>Structured troubleshooting workflow for live incidents: reproduce symptoms, inspect logs, validate service health, isolate root cause, document 5-Whys, and assign permanent remediation.</p>
-          <ul>
-            <li>Linux logs, service status, SQL diagnostics</li>
-            <li>Runbooks and escalation notes</li>
-            <li>Clear customer-facing updates</li>
+
+      <div class="case-study-grid">
+        <article class="case-study-card hero-case reveal">
+          <div class="case-head">
+            <span class="card-tag">Flagship incident</span>
+            <span class="impact-pill">Go-live protected</span>
+          </div>
+          <h3>Remote Production Go‑Live Recovery Without Direct Server Access</h3>
+          <p class="case-summary">During an Intelerad weekend on-call shift, a healthcare client was preparing to move from test into live production when remote login failed. With limited weekend support and no direct access, I coordinated with the client infrastructure engineer, guided diagnostics, isolated a legacy test-phase cron job consuming resources, and helped reroute essential services to keep the deployment moving.</p>
+          <div class="sar-grid">
+            <div><strong>Situation</strong><p>Critical imaging system go-live, remote access failure, limited escalation coverage.</p></div>
+            <div><strong>Action</strong><p>Guided client-side Linux diagnostics, checked resource usage/processes, reviewed cron configuration, backed up and disabled the problematic job.</p></div>
+            <div><strong>Result</strong><p>System stabilized, access recovered, and the client continued the production deployment.</p></div>
+          </div>
+          <ul class="case-bullets">
+            <li>On-call ownership under pressure</li>
+            <li>Remote troubleshooting without direct SSH</li>
+            <li>Linux cron/resource investigation</li>
+            <li>Business continuity during go-live</li>
           </ul>
         </article>
-        <article class="case-card reveal delay-1">
-          <div class="card-tag">Automation</div>
-          <h3>Python & Bash Operational Tooling</h3>
-          <p>Automation scripts for log parsing, health checks, data extraction, and repeatable troubleshooting tasks. Focused on reducing manual effort and improving consistency under pressure.</p>
+
+        <article class="case-study-card reveal delay-1">
+          <div class="case-head"><span class="card-tag">Automation</span><span class="impact-pill">100+ scripts</span></div>
+          <h3>Python Data Extraction & Web Scraping Automation</h3>
+          <p>At Turbolab, I built reusable scraping and data automation workflows from scratch for Amazon and other large websites, using pure Python plus Scrapy, Dragline, Selenium, Redis, XPath, and Pandas.</p>
           <ul>
-            <li>Python, Bash, awk, sed, grep</li>
-            <li>Reusable diagnostics workflows</li>
-            <li>Evidence-driven support cases</li>
+            <li>Designed scrapers for structured product/review extraction</li>
+            <li>Handled XPath parsing, page navigation, retries, and validation</li>
+            <li>Documented repeatable workflows for engineering and QA teams</li>
           </ul>
         </article>
-        <article class="case-card reveal delay-2">
-          <div class="card-tag">Healthcare SaaS</div>
-          <h3>PACS / RIS / DICOM / HL7 Support</h3>
-          <p>Supported imaging workflows, routing queues, modality connectivity, database growth, storage pressure, and audit/backup issues across regulated healthcare environments.</p>
+
+        <article class="case-study-card reveal delay-2">
+          <div class="case-head"><span class="card-tag">Healthcare SaaS</span><span class="impact-pill">20+ environments</span></div>
+          <h3>PACS / RIS / DICOM / HL7 Production Support</h3>
+          <p>Supported regulated healthcare imaging workflows across hospital environments, including routing queues, modality connectivity, database growth, storage pressure, auditing, backups, and monitoring alerts.</p>
           <ul>
-            <li>DICOM routing and ingestion diagnostics</li>
-            <li>PostgreSQL/Sybase support</li>
-            <li>HIPAA-aware production operations</li>
+            <li>DICOM routing and image ingestion diagnostics</li>
+            <li>PostgreSQL/Sybase troubleshooting and database health checks</li>
+            <li>HIPAA-aware access control and production support practices</li>
+          </ul>
+        </article>
+
+        <article class="case-study-card reveal delay-1">
+          <div class="case-head"><span class="card-tag">SaaS support</span><span class="impact-pill">Customer ownership</span></div>
+          <h3>Shopify Integration & Platform Issue Triage</h3>
+          <p>Support merchant-facing SaaS issues involving platform integrations, authentication workflows, payment behavior, API-related symptoms, and cross-functional defect escalation.</p>
+          <ul>
+            <li>Reproduce issues before escalation</li>
+            <li>Translate technical findings into clear customer updates</li>
+            <li>Contribute knowledge base improvements for repeat issues</li>
           </ul>
         </article>
       </div>
@@ -143,14 +190,15 @@ output: preventable cause + owner + runbook</code></pre>
       <div class="section-intro reveal">
         <p class="eyebrow">Technical stack</p>
         <h2>Tools I use to find signal in complex systems.</h2>
+        <p>I am strongest where Linux operations, support engineering, automation, observability, and customer communication intersect.</p>
       </div>
       <div class="skill-grid reveal delay-1">
-        <div><h3>Systems</h3><p>Linux, Ubuntu, CentOS, Windows Server, SSH, systemctl, cron, journalctl</p></div>
-        <div><h3>Automation</h3><p>Python, Bash, shell pipelines, log parsing, operational scripts</p></div>
-        <div><h3>Data</h3><p>PostgreSQL, MySQL, Sybase, SQL query diagnostics, performance troubleshooting</p></div>
-        <div><h3>Observability</h3><p>Grafana, production alert triage, RCA, incident bridge coordination</p></div>
-        <div><h3>Networking</h3><p>TCP/IP, DNS, VPN, Zscaler, GlobalProtect, nmap, connectivity debugging</p></div>
-        <div><h3>Workflow</h3><p>Zendesk, Jira, ServiceNow, Confluence, Git, CI/CD fundamentals</p></div>
+        <div><h3>Systems</h3><p>Linux, Ubuntu, CentOS, Windows Server, SSH, systemctl, cron, journalctl, production debugging</p></div>
+        <div><h3>Automation</h3><p>Python, Bash, shell pipelines, Scrapy, Dragline, Selenium, awk, sed, grep, operational scripts</p></div>
+        <div><h3>Data</h3><p>PostgreSQL, MySQL, Sybase, SQL query diagnostics, Redis, Pandas, data extraction workflows</p></div>
+        <div><h3>Observability</h3><p>Grafana, production alert triage, RCA, 5-Whys, incident bridge coordination, runbooks</p></div>
+        <div><h3>Networking</h3><p>TCP/IP, DNS, VPN, Zscaler, GlobalProtect, nmap, SSH, connectivity debugging</p></div>
+        <div><h3>Workflow</h3><p>Zendesk, Jira, ServiceNow, Confluence, Git, CI/CD fundamentals, technical documentation</p></div>
       </div>
     </section>
 
@@ -158,13 +206,28 @@ output: preventable cause + owner + runbook</code></pre>
       <div class="proof-card reveal">
         <p class="eyebrow">How I work</p>
         <h2>Calm under pressure. Practical with complexity.</h2>
-        <p>I don’t just close tickets. I look for patterns, document what actually happened, and make the next incident easier to detect, explain, and prevent.</p>
+        <p>I don’t just close tickets. I reproduce the problem, inspect evidence, isolate what changed, fix what I can, escalate with context when needed, and document the path so the next incident is easier to detect and prevent.</p>
         <div class="workflow">
           <span>Reproduce</span>
           <span>Inspect</span>
           <span>Isolate</span>
-          <span>Fix</span>
+          <span>Fix / Escalate</span>
           <span>Document</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section recruiter-section reveal">
+      <div class="recruiter-card">
+        <p class="eyebrow">Recruiter quick scan</p>
+        <h2>Best-fit roles</h2>
+        <div class="role-grid">
+          <span>Technical Support Engineer</span>
+          <span>DevOps Support Engineer</span>
+          <span>Linux Systems Engineer</span>
+          <span>Infrastructure Support</span>
+          <span>Data Engineer / Analytics Support</span>
+          <span>Production Operations</span>
         </div>
       </div>
     </section>
@@ -177,6 +240,7 @@ output: preventable cause + owner + runbook</code></pre>
         <a class="button primary" href="mailto:savieoseb@gmail.com">Email me</a>
         <a class="button secondary" href="https://www.linkedin.com/in/savieo-sebastian/" target="_blank" rel="noreferrer">LinkedIn</a>
         <a class="button secondary" href="https://github.com/savieo" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="button secondary" href="assets/resume/Savieo_Sebastian_Resume.docx" download>Resume DOCX</a>
         <a class="button secondary" href="old/">Old Portfolio</a>
       </div>
     </section>
